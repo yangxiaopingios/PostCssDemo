@@ -1,0 +1,27 @@
+{
+  "name": "PostCssDemo",
+  "version": "1.0.0",
+  "description": "PostCss 深入浅出教程",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangxiaopingios/PostCssDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangxiaopingios/PostCssDemo/issues"
+  },
+  "homepage": "https://github.com/yangxiaopingios/PostCssDemo#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "cssnext": "^1.8.4",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "precss": "^2.0.0"
+  }
+}
