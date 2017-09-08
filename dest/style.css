@@ -5,16 +5,24 @@
 * @Last Modified time: 2017-09-08 15:49:03
 */
 /* Testing autoprefixer */
+
 .autoprefixer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
+
 /* Testing cssnext */
+
 .cssnext {
-  background: rgba(255, 0, 0, 0.9);
+  background: color(red alpha(-10%));
 }
+
 /* Testing precss */
+
 .precss {
-    background: green
+  @if 3 < 5 {
+    background: green;
+  }
+  @else {
+    background: blue;
+  }
 }

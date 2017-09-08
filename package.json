@@ -22,6 +22,7 @@
     "cssnext": "^1.8.4",
     "gulp": "^3.9.1",
     "gulp-postcss": "^7.0.0",
+    "postcss-yxpplugin": "^1.0.0",
     "precss": "^2.0.0"
   }
 }
